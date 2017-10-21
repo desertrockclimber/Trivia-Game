@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type='text/css' href='assets/css/style.css'>
+	<link href='https://fonts.googleapis.com/css?family=Alegreya' rel='stylesheet'>
+
+
+	<title>Quest for the Holy Grail</title>
+</head>
+<body>
+	<div class = "container" id= "main-page" style="border: solid 2px;" img>
+		<div class="jumbotron" style="border: solid 2px;">
+		  <h1 class = "text-center" id= 'mainTitle' style= "color:white; ">Arthur's Quest for the Holy Grail</h1>
+		  	<div id="instructions" style="width: 100%; height: 50px;">
+		  	</div>
+		  	<p><button class= "btn btn-primary btn-lg" onclick="startInstructions()" id = "startButton"; href="#" role="button" style= "background-color: green; margin-left: 43%;">Start Game</button></p>
+		  	<br>
+		  	<p><button class= "btn btn-primary btn-lg" id = "beginGame"; role="button" style= "background-color: green; margin-left: 28%; display: none;">Ask me your questions, Bridgekeeper. I am not afraid.</button></p>
+		</div>
+		<div class ="col-lg-12 col-md-6" id="timerArea" style="border: solid 2px; height: 50px;">
+		<br>
+
+		</div>
+		
+		
+		<br>
+		
+		<div class="col-lg-12 col-md-6" id="answerArea" style="border: solid 1px; height: 200px";>
+		</div>
+
+
+
+	
+
+	</div>
+
+
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="assets/javascript/app.js"></script>
+</body>
+</html>
+
+<!-- You'll create a trivia game that shows only one question until the player answers it or their time runs out.
+If the player selects the correct answer, show a screen congratulating them for choosing the right option. After a few seconds, display the next question - do this without user input.
+
+The scenario is similar for wrong answers and time-outs.
+
+
+If the player runs out of time, tell the player that time's up and display the correct answer. Wait a few seconds, then show the next question.
+If the player chooses the wrong answer, tell the player they selected the wrong option and then display the correct answer. Wait a few seconds, then show the next question.
+
+
+On the final screen, show the number of correct answers, incorrect answers, and an option to restart the game (without reloading the page).
+
+
+ -->

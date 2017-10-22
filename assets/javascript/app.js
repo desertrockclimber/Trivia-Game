@@ -132,7 +132,7 @@ var game = {
       console.log("You got flung!");
       clearInterval(timer);
       game.incorrect++;
-      $('#answerArea').html("<h2>Wrong!</h2>");
+      $('#answerArea').html("<h2>Tsk...Tsk...Tsk...</h2>");
       $('#answerArea').append('<h2>The Correct Answer Was: '+questions[game.currentQuestion].correctAnswer+'</h2>');
       if(game.currentQuestion==questions.length-1){
           setTimeout(game.results, 3*1000);
@@ -159,7 +159,7 @@ var game = {
 console.log("working or not?")
 
 var i = 0;
-var txt1 = "He who would cross the Bridge of Death - Must answer me these questions three - Ere the other side he see.  AHEM...You have 30 seconds to anser each question.";
+var txt1 = "He who would cross the Bridge of Death - Must answer me these questions three - Ere the other side he see.  AHEM...You have 30 seconds to answer each question.";
 var speed = 50;
 
 function startInstructions() {

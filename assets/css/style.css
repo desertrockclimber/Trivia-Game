@@ -41,10 +41,9 @@ background: linear-gradient(red, gold);
 #answerArea{
 	background-image: url(http://images.fanpop.com/images/image_uploads/Bridge-of-Death-monty-python-and-the-holy-grail-591678_800_441.jpg);
 	background-size: cover;
-}
-
-#gameArea{
-	background-image: url(http://images.fanpop.com/images/image_uploads/Bridge-of-Death-monty-python-and-the-holy-grail-591678_800_441.jpg);
-	background-size: cover;
+	color: white;
+	text-shadow: 2px 2px #ff0000;
 
 }
+
+
